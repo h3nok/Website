@@ -1,0 +1,8 @@
+I'm a graduate student at the University of Colorado Denver Computer Science Department advised by Prof. Gita Alaghband.
+I'm interested in deep learning models for visual recognition tasks. My primary research focus is characterizing deep
+learning blackbox to gain insight as to how these models find useful signal from large amounts of data. Deep learning
+models ( neural networks in general) are a type of artificial intelligence (AI) that are modeled on the brain. These
+are promissing algorithms that have demonstrated exceptional performance at dealing with complex, high volume and
+variety real-world data. Unfortunetly, these networks are as opaque as the brain itself. These models, much like the
+brain, do not store what they have learned in digital memory in raw or compressed format. Instead they defuse the
+information in a way that is difficult to decipher.
