@@ -5,124 +5,191 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Dimension by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-diamond"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Henok G.</h1>
-								<p>Efforless living requires persistent effort</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">About</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#projects">Projects</a></li>
-								<li><a href="#projects">Resources</a></li>
-								<li><a href="#projects">Hobbies</a></li>
-								<li><a href="#projects">AI</a></li>
-								<li><a class="dropdown">
-									<span>Teaching</span>
-									<div class="dropdown-content">
-										<ul>
-											<li>CSCI 1411</li>
-											<li>CSCI 1411</li>
-										</ul>
-									</div>
-								</a></li>
-								<li><a href="#projects">Notes for thought</a></li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</nav>
-					</header>
+<head>
+	<title>Dimension by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("teachingSelect").value;
+			window.location = x;
+		}
+		</script>
+</head>
 
-				<!-- Main -->
-					<div id="main">
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/profile.jpg" alt="" /></span>
-								<p>A 4th year graduate student at the University of Colorado Denver Computer Science Department advised by Prof. Gita Alaghband.
-									My research scope encompasses <a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank">deep learning</a> 
-									and its application to computer vision.In particular I'm interested in characterizing the inner workings of deep convolutional
-									networks <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network" target="_blank">(CNN)</a> for visual recognition 
-									tasks. My current active research subject is characterizing feature maps learned by CNN using a technique called Controlled 
-									Convolution. <a href="#projects">See projects for detail.</a>
-							</article>
+<body>
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/grid.png" alt="" /></span>
-							</article>
-
-						<!-- projects-->
-							<article id="projects">
-								<h2 class="major">Projects</h2>
-								<span class="image main"><img src="images/nn.jpg" alt="" /></span>
-								<p></p>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="field half first">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="special" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
-						<!-- Elements -->
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-					<!--	<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>-->
-					</footer>
-
+	<!-- Wrapper -->
+	<div id="wrapper">
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<span class="icon fa-diamond"></span>
 			</div>
+			<div class="content">
+				<div class="inner">
+					<h1>Henok G.</h1>
+					<p>Efforless living requires persistent effort</p>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<a href="#intro">About</a>
+					</li>
+					<li>
+						<a href="#work">Work</a>
+					</li>
+					<li>
+						<a href="#projects">Projects</a>
+					</li>
+					<li>
+						<a href="#projects">Resources</a>
+					</li>
+					<li>
+						<a href="#projects">Hobbies</a>
+					</li>
+					<li>
+						<a href="#projects">AI</a>
+					</li>
+					<li>
+						<select id="teachingSelect" onchange="myFunction()">
+							<option value="" selected>TEACHING</option>
+							<option value="#csci1411">CSCI 1411</option>
+							<option value="#csci1410">CSCI 1410</option>
+						</select>
+					</li>
+					<li>
+						<a href="#projects">Notes for thought</a>
+					</li>
+	
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-		<!-- BG -->
-			<div id="bg"></div>
+		<!-- Main -->
+		<div id="main">
+			<!-- Intro -->
+			<article id="intro">
+				<h2 class="major">Intro</h2>
+				<span class="image main">
+					<img src="images/profile.jpg" alt="" />
+				</span>
+				<p>A 4th year graduate student at the University of Colorado Denver Computer Science Department advised by Prof. Gita Alaghband.
+					My research scope encompasses
+					<a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank">deep learning</a>
+					and its application to computer vision.In particular I'm interested in characterizing the inner workings of deep convolutional
+					networks
+					<a href="https://en.wikipedia.org/wiki/Convolutional_neural_network" target="_blank">(CNN)</a> for visual recognition tasks. My current active research subject is characterizing feature maps learned by
+					CNN using a technique called Controlled Convolution.
+					<a href="#projects">See projects for detail.</a>
+			</article>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<!-- Work -->
+			<article id="work">
+				<h2 class="major">Work</h2>
+				<span class="image main">
+					<img src="images/grid.png" alt="" />
+				</span>
+			</article>
 
-	</body>
+			<!-- projects-->
+			<article id="projects">
+				<h2 class="major">Projects</h2>
+				<span class="image main">
+					<img src="images/nn.jpg" alt="" />
+				</span>
+				<p></p>
+			</article>
+			<article id="csci1410">
+				<h2 class="major">CSCI 1410 - Fundamentals of Computing</h2>
+				<span class="image main">
+					<!-- <img src="images/nn.jpg" alt="" /> -->
+				</span>
+				<p></p>
+			</article>
+			<article id="csci1411">
+				<h2 class="major">CSCI 1411 - Fundamentals of Computing Lab</h2>
+				<span class="image main">
+					<img src="images/nn.jpg" alt="" />
+				</span>
+				<p></p>
+			</article>
+			<!-- Contact -->
+			<article id="contact">
+				<h2 class="major">Contact</h2>
+				<form method="post" action="#">
+					<div class="field half first">
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" />
+					</div>
+					<div class="field half">
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email" />
+					</div>
+					<div class="field">
+						<label for="message">Message</label>
+						<textarea name="message" id="message" rows="4"></textarea>
+					</div>
+					<ul class="actions">
+						<li>
+							<input type="submit" value="Send Message" class="special" />
+						</li>
+						<li>
+							<input type="reset" value="Reset" />
+						</li>
+					</ul>
+				</form>
+				<ul class="icons">
+					<li>
+						<a href="#" class="icon fa-twitter">
+							<span class="label">Twitter</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="icon fa-facebook">
+							<span class="label">Facebook</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="icon fa-instagram">
+							<span class="label">Instagram</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="icon fa-github">
+							<span class="label">GitHub</span>
+						</a>
+					</li>
+				</ul>
+			</article>
+			<!-- Elements -->
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<!--	<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>-->
+		</footer>
+
+	</div>
+
+	<!-- BG -->
+	<div id="bg"></div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
