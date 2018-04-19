@@ -19,15 +19,42 @@
 			var x = document.getElementById("teachingSelect").value;
 			window.location = x;
 		}
-		$(function () {
-			$("#aboutme").load("assets/articles/aboutme.html");
-		});
 
+		function includeHTML() {
+			var z, i, elmnt, file, xhttp;
+			/*loop through a collection of all HTML elements:*/
+			z = document.getElementsByTagName("*");
+			for (i = 0; i < z.length; i++) {
+				elmnt = z[i];
+				/*search for elements with a certain atrribute:*/
+				file = elmnt.getAttribute("w3-include-html");
+				if (file) {
+					/*make an HTTP request using the attribute value as the file name:*/
+					xhttp = new XMLHttpRequest();
+					xhttp.onreadystatechange = function () {
+						if (this.readyState == 4) {
+							if (this.status == 200) {
+								elmnt.innerHTML = this.responseText;
+							}
+							if (this.status == 404) {
+								elmnt.innerHTML = "Page not found.";
+							}
+							/*remove the attribute, and call this function once more:*/
+							elmnt.removeAttribute("w3-include-html");
+							includeHTML();
+						}
+					}
+					xhttp.open("GET", file, true);
+					xhttp.send();
+					/*exit the function:*/
+					return;
+				}
+			}
+		};
 	</script>
 </head>
 
 <body>
-
 	<!-- Wrapper -->
 	<div id="wrapper">
 		<!-- Header -->
@@ -38,7 +65,7 @@
 			<div class="content">
 				<div class="inner">
 					<h1>Henok Ghebrechristos</h1>
-					<p>Efforless living requires persistent effort</p>
+					<p style="color:chartreuse">Efforless living requires persistent effort</p>
 				</div>
 			</div>
 			<nav>
@@ -61,15 +88,15 @@
 					<li>
 						<a href="#projects">AI</a>
 					</li>
-					<li>
+					<li class="menu-has-children">
 						<select id="teachingSelect" onchange="teaching()">
 							<option value="" selected>TEACHING</option>
-							<option value="#csci1411">CSCI 1411</option>
-							<option value="#csci1410">CSCI 1410</option>
+							<option value="pages/teaching/1410.html">CSCI 1410</option>
+							<option value="pages/teaching/1411.html">CSCI 1411</option>
 						</select>
 					</li>
 					<li>
-						<a href="#projects">Notes for thought</a>
+						<a href="#projects">Food for thought</a>
 					</li>
 
 					<li>
@@ -78,7 +105,6 @@
 				</ul>
 			</nav>
 		</header>
-
 		<!-- Main -->
 		<div id="main">
 			<!-- Intro -->
@@ -89,26 +115,26 @@
 				</span>
 				<p>
 					My name is Henok Ghebrechristos. I'm a graduate student at the University of Colorado Denver-Computer Science Department.
-					My advisor is Prof. Gita Alaghband of the Parallel and Distributed Systems Lab. I'm interested in conducting research in 
-					many scientific areas including:  
+					My advisor is Prof. Gita Alaghband of the Parallel and Distributed Systems Lab. I'm interested in conducting research
+					in many scientific areas including:
 					<ul>
 						<li>Machine Learning and AI</li>
 						<li>Emergent Complexity and Complex Systems Simulation</li>
 						<li>Theory of Computation</li>
 						<li>Fundamentals of the Mind and Cognition</li>
 						<li>Models of Reality</li>
-					</ul> 
-					My active research involves deep learning models for visual recognition tasks. For few years now, my primary research 
-					focus has been characterizing learning in convolutional neural networks using some existing and new techniques. This 
-					effor is to try and gain some insight as to how deep CCN models find useful signal from large datasets. Deep learning 
-					models ( neural networks in	general) are a type of artificial intelligence (AI) architectures that are modeled after the 
-					brain. Although this modeling approach is debatable these are promissing algorithms that have demonstrated exceptional 
-					performance at dealing with complex,high volume and variety real-world data. Unfortunetly, these networks are as opaque 
-					as the brain itself. Much like the brain, they do not store what they have learned in digital memory in raw or compressed 
-					format. Instead they defuse the information in a way that is difficult to decipher. However, one can utilize the knowldge 
-					of the inividial components and operations in the architecture. For instance, CNNs are mainly composed of convolutional,
-					activation, pooling and fully connected layers. Given that the networks perform these small operations in descrete and 
-					localized section of the input, we can try and controll how the input is fed to the network and observe and analysize 
+					</ul>
+					My active research involves deep learning models for visual recognition tasks. For few years now, my primary research focus
+					has been characterizing learning in convolutional neural networks using some existing and new techniques. This effor
+					is to try and gain some insight as to how deep CCN models find useful signal from large datasets. Deep learning models
+					( neural networks in general) are a type of artificial intelligence (AI) architectures that are modeled after the brain.
+					Although this modeling approach is debatable these are promissing algorithms that have demonstrated exceptional performance
+					at dealing with complex,high volume and variety real-world data. Unfortunetly, these networks are as opaque as the brain
+					itself. Much like the brain, they do not store what they have learned in digital memory in raw or compressed format.
+					Instead they defuse the information in a way that is difficult to decipher. However, one can utilize the knowldge of
+					the inividial components and operations in the architecture. For instance, CNNs are mainly composed of convolutional,
+					activation, pooling and fully connected layers. Given that the networks perform these small operations in descrete and
+					localized section of the input, we can try and controll how the input is fed to the network and observe and analysize
 					the output and how the output correlates with operations themselves.
 				</p>
 			</article>
@@ -207,7 +233,9 @@
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	<script>
+		includeHTML();
+	</script>
 </body>
 
 </html>
