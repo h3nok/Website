@@ -65,7 +65,7 @@
 			<div class="content">
 				<div class="inner">
 					<h1>Henok Ghebrechristos</h1>
-					<p style="color:chartreuse">Efforless living requires persistent effort</p>
+					<!-- <p style="color:chartreuse">Efforless living requires persistent effort</p> -->
 				</div>
 			</div>
 			<nav>
@@ -80,10 +80,15 @@
 						<a href="pages/projects/projects.html">Projects</a>
 					</li>
 					<li>
-						<a href="#projects">Resources</a>
+						<!-- <a href="#resources">Resources</a> -->
+						<select id="teachingSelect" onchange="teaching()">
+							<option value="" selected>Resources</option>
+							<option value="#cpp">C\C++</option>
+							<option value="#dl">Deep Learning</option>
+						</select>
 					</li>
 					<li>
-						<a href="#projects">Hobbies</a>
+						<a href="#hobbies">Hobbies</a>
 					</li>
 					<li>
 						<a href="#projects">AI</a>
@@ -127,15 +132,15 @@
 					My active research involves deep learning models for visual recognition tasks. For few years now, my primary research focus
 					has been characterizing learning in convolutional neural networks using some existing and new techniques. This effor
 					is to try and gain some insight as to how deep CCN models find useful signal from large datasets. Deep learning models
-					( neural networks in general) are a type of artificial intelligence (AI) architectures that are modeled after the brain.
-					Although this modeling approach is debatable these are promissing algorithms that have demonstrated exceptional performance
+					( neural networks in general) are a type of artificial intelligence architectures that are modeled after the brain.
+					Although this modeling approach is debatable, these are promissing algorithms that have demonstrated exceptional performance
 					at dealing with complex,high volume and variety real-world data. Unfortunetly, these networks are as opaque as the brain
-					itself. Much like the brain, they do not store what they have learned in digital memory in raw or compressed format.
-					Instead they defuse the information in a way that is difficult to decipher. However, one can utilize the knowldge of
-					the inividial components and operations in the architecture. For instance, CNNs are mainly composed of convolutional,
-					activation, pooling and fully connected layers. Given that the networks perform these small operations in descrete and
-					localized section of the input, we can try and controll how the input is fed to the network and observe and analysize
-					the output and how the output correlates with operations themselves.
+					itself. They do not store what they have learned in digital memory in raw or compressed format. Instead they defuse the 
+					information in a way that is difficult to decipher. However, one can utilize the knowldge of the inividial components and 
+					operations in the architecture. For instance, CNNs are mainly composed of convolutional, activation, pooling and fully connected 
+					layers. Given that the networks perform these small operations in descrete and localized section of the input, we can try and 
+					controll how the input is fed to the network and observe and analysize the output and how the output correlates with operations 
+					themselves.
 				</p>
 			</article>
 
@@ -155,6 +160,86 @@
 				</span>
 				<p></p>
 			</article>
+			<article id="dl">
+				<h2 class="major" href="https://en.wikipedia.org/wiki/Deep_learning" target="__blank">Deep Learning and Neural Networks</h2>
+				<span class="image main">
+					<h3 class="major">
+						<!-- <a href="https://en.wikipedia.org/wiki/Deep_learning" target="__blank" />Deep Learning</h3> -->
+					<h3>Deep Learning Courses and Lecture Notes:</h3>
+					<div>
+						<ul>
+							<li>
+								<a href="https://www.coursera.org/learn/machine-learning" target="__blank" style="margin-left: 2em">Machine-Learning Class on Coursera</a>
+							</li>
+							<li>
+								<a href="https://www.coursera.org/learn/neural-networks" target="__blank" style="margin-left: 2em">Neural Networks Class on Coursera</a>
+							</li>
+							<li>
+								<a href="http://www.cs.toronto.edu/~rgrosse/csc321/notes.html" target="__blank" style="margin-left: 2em">U. Toronto: Introduction to Neural Networks</a>
+							</li>
+							<li>
+								<a href="http://cs229.stanford.edu/syllabus.html" target="__blank" style="margin-left: 2em">Lecture Notes for Stanford’s CS229 Machine Learning</a>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/playlist?list=PLE6Wd9FR--EfW8dtjAuPoTuPcqmOV53Fu" target="__blank" style="margin-left: 2em">Nando de Freitas’s Deep Learning Class at Oxford</a>
+							</li>
+							<li>
+								<a href="https://cs231n.github.io/" target="__blank" style="margin-left: 2em">Andrej Karpathy’s Convolutional Neural Networks Class at Stanford</a>
+							</li>
+						</ul>
+					</div>
+					<h3>Deep Learning Forums:</h3>
+					<div>
+						<ul>
+							<li>
+								<a href="https://plus.google.com/u/0/communities/112866381580457264725?cfem=1 target=" target="__blank" style="margin-left: 2em">Google + Deep Learning Group</a>
+							</li>
+						</ul>
+					</div>
+					<!-- <img src="images/nn.jpg" alt="" /> -->
+				</span>
+				<p></p>
+			</article>
+						<article id="cpp">
+							<h2 class="major">C \ C++ Resources</h2>
+							<span class="image main">
+								<!-- <h3 class="major"> -->
+									<!-- <a href="https://en.wikipedia.org/wiki/Deep_learning" target="__blank" />Deep Learning</h3> -->
+								<h4>C\C++ Courses and Lecture Notes:</h4>
+								<div>
+									<ul>
+										<li>
+											<a href="" target="__blank" style="margin-left: 2em"></a>
+										</li>
+										<li>
+											<a href="" target="__blank" style="margin-left: 2em"></a>
+										</li>
+										<li>
+											<a href="" target="__blank" style="margin-left: 2em"></a>
+										</li>
+										<li>
+											<a href="" target="__blank" style="margin-left: 2em"></a>
+										</li>
+										<li>
+											<a href="" target="__blank" style="margin-left: 2em"></a>
+										</li>
+										<li>
+											<a href="" target="__blank" style="margin-left: 2em"></a>
+										</li>
+									</ul>
+								</div>
+								<h4>C\C++ Forums:</h4>
+								<div>
+									<ul>
+										<li>
+											<a href="" target="__blank" style="margin-left: 2em"></a>
+										</li>
+									</ul>
+								</div>
+								<!-- <img src="images/nn.jpg" alt="" /> -->
+							</span>
+							<p></p>
+						</article>
 			<article id="csci1410">
 				<h2 class="major">CSCI 1410 - Fundamentals of Computing</h2>
 				<span class="image main">
@@ -211,7 +296,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="#" class="icon fa-github">
+						<a href="https://github.com/h3nok" target="__blank" class="icon fa-github">
 							<span class="label">GitHub</span>
 						</a>
 					</li>
