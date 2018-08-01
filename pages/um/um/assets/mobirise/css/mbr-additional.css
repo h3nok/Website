@@ -1377,11 +1377,16 @@ body {
 }
 .cid-qQm2rTUVnI H1 {
   text-align: center;
+  color: #ffffff;
+}
+.cid-qQm2rTUVnI .mbr-text,
+.cid-qQm2rTUVnI .mbr-section-btn B {
+  color: #f7ed4a;
 }
 .cid-qQm4JiaWpM {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/bb-7-1920x1080.jpg");
+  background-color: #073b4c;
 }
 .cid-qQm4JiaWpM h4 {
   font-weight: 500;
@@ -1422,10 +1427,14 @@ body {
   margin-top: 1rem;
   margin-bottom: 0;
 }
+.cid-qQm4JiaWpM .card-title,
+.cid-qQm4JiaWpM .card-img {
+  color: #efefef;
+}
 .cid-qQmbbpJANM {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/bb-5-1920x1080.jpg");
+  background-color: #787324;
 }
 .cid-qQmbbpJANM h4 {
   font-weight: 500;
@@ -1469,7 +1478,7 @@ body {
 .cid-qQmbuLTdyP {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/dark-space-1920x1080.jpg");
+  background-color: #4f4943;
 }
 .cid-qQmbuLTdyP h4 {
   font-weight: 500;
@@ -1513,7 +1522,7 @@ body {
 .cid-qQmhATAyU9 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/bb-3-1920x1080.jpg");
+  background-color: #232323;
 }
 .cid-qQmhATAyU9 h4 {
   font-weight: 500;
@@ -1557,7 +1566,7 @@ body {
 .cid-qQmhJIFd4G {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/bb-4-1920x1080.jpg");
+  background-color: #c1c1c1;
 }
 .cid-qQmhJIFd4G h4 {
   font-weight: 500;

@@ -150,7 +150,10 @@ body {
 }
 
 .main-content {
-    visibility: hidden
+    visibility: hidden;
+    width:80%;
+    height:60%;
+    margin-top:30px;
 }
 
 p {
@@ -182,7 +185,8 @@ ul {
 ul li {
     /* position: relative; */
     /* padding-bottom: .1875em; */
-    margin-left: 10em
+    margin-left: 10em;
+    margin:10px, 0;
 }
 
 li a {
@@ -466,13 +470,14 @@ a.btn-bordered {
         line-height: 48px
     }
     .main-content {
-        width: 100%
+        width: 80%;
+        height:80%
     }
 }
 
 @media only screen and (min-width: 1200px) {
     body {
-        font-size: 26px;
+        font-size: 18px;
         line-height: 48px
     }
 }
