@@ -1551,7 +1551,7 @@ body.is-loading #header .content .inner {
 	position: relative;
 	width: 50rem;
 	max-width: 100%;
-	background-color: rgba(16, 53, 82, 0.85);
+	background-color: rgba(72, 177, 177, 0.281);
 	border-radius: 4px;
 	opacity: 0;
 }
