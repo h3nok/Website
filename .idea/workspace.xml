@@ -2,88 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55b9df3c-b4fe-468c-b3fa-3ade5d7faa1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg-g.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/css/scss-files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/js/main-1410.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/animate/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/animate/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/easing/easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/easing/easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/ionicons/css/ionicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/ionicons/css/ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/ionicons/fonts/ionicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/ionicons/fonts/ionicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/ionicons/fonts/ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/ionicons/fonts/ionicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/jquery/jquery-migrate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/magnific-popup/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/magnific-popup/magnific-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/magnific-popup/magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/superfish/hoverIntent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/superfish/superfish.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/superfish/superfish.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/wow/wow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/lib/wow/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/1410.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/1411.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/content/csci1411.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/css/scss-files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/js/main-1410.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/animate/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/animate/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/easing/easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/easing/easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/ionicons/css/ionicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/ionicons/css/ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/ionicons/fonts/ionicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/ionicons/fonts/ionicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/ionicons/fonts/ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/ionicons/fonts/ionicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/jquery/jquery-migrate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/magnific-popup/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/magnific-popup/magnific-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/magnific-popup/magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/superfish/hoverIntent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/superfish/superfish.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/superfish/superfish.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/wow/wow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teaching/lib/wow/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="116" column="51" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
+            <state relative-caret-position="126">
+              <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -236,8 +155,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="116" column="51" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
+        <state relative-caret-position="126">
+          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
         </state>
       </provider>
     </entry>
