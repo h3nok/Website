@@ -2,79 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55b9df3c-b4fe-468c-b3fa-3ade5d7faa1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/images/bb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/images/bb_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/images/bb_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/images/bb_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/images/green.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/images/icons/android-icon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/images/icons/apple-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/images/icons/apple-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/images/icons/apple-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/images/icons/apple-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/intro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/js/backgrounds/drifter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/js/backgrounds/particles.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/js/dependencies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/bb-2-1920x1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/bb-3-1920x1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/bb-4-1920x1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/bb-5-1920x1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/bb-7-1920x1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/bg-copy-1568x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/bg-copy-2-1568x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/dark-space-1920x1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/digital-1920x1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/hashes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/logo4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/mbr-favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/images/red.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/mobirise/css/mbr-additional.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/parallax/jarallax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/popper/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/slidervideo/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/smoothscroll/smooth-scroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/tether/tether.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/tether/tether.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/theme/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/theme/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/vimeoplayer/jquery.mb.vimeo_player.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/web/assets/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/web/assets/mobirise-icons/mobirise-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/web/assets/mobirise-icons/mobirise-icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/web/assets/mobirise-icons/mobirise-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/web/assets/mobirise-icons/mobirise-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/web/assets/mobirise-icons/mobirise-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/assets/ytplayer/jquery.mb.ytplayer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/fonts/Rubik/300.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/fonts/Rubik/300italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/fonts/Rubik/500.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/fonts/Rubik/500italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/fonts/Rubik/700.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/fonts/Rubik/700italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/fonts/Rubik/900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/fonts/Rubik/900italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/fonts/Rubik/italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/fonts/Rubik/regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/fonts/Rubik/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/fonts/fonts.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/history/project-180429191308.mobirise_history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/history/project-180429195323.mobirise_history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/project.mobirise" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/publish-hashes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/um/um/starthere.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
